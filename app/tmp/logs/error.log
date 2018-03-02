@@ -1,0 +1,1383 @@
+2017-11-27 08:12:08 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-27 08:12:15 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-27 08:12:20 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-27 08:13:19 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-27 08:13:49 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-27 08:14:14 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-27 08:14:24 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-27 08:32:57 Error: Fatal Error (4): syntax error, unexpected ')', expecting variable (T_VARIABLE) in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 7]
+2017-11-27 08:32:57 Error: [InternalErrorException] Internal Server Error
+Request URL: /
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 7, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 7, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-27 08:33:05 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-11-27 08:33:29 Error: [MissingViewException] View file "Users/login.php" is missing.
+Exception Attributes: array (
+  'file' => 'Users/login.php',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 09:06:39 Warning: Warning (4096): Object of class UsersController could not be converted to string in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 13]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::login() - APP/Controller/UsersController.php, line 13
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2017-11-27 09:06:40 Warning: Warning (4096): Object of class UsersController could not be converted to string in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 13]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::login() - APP/Controller/UsersController.php, line 13
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2017-11-27 09:06:40 Warning: Warning (4096): Object of class UsersController could not be converted to string in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 13]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::login() - APP/Controller/UsersController.php, line 13
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2017-11-27 09:07:05 Warning: Warning (4096): Object of class UsersController could not be converted to string in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 13]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::login() - APP/Controller/UsersController.php, line 13
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2017-11-27 09:12:37 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-11-27 09:19:02 Warning: Warning (2): json_decode() expects parameter 1 to be string, object given in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 14]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+json_decode - [internal], line ??
+UsersController::login() - APP/Controller/UsersController.php, line 14
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2017-11-27 09:19:11 Warning: Warning (2): json_decode() expects parameter 1 to be string, object given in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 14]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+json_decode - [internal], line ??
+UsersController::login() - APP/Controller/UsersController.php, line 14
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2017-11-27 09:19:12 Warning: Warning (2): json_decode() expects parameter 1 to be string, object given in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 14]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+json_decode - [internal], line ??
+UsersController::login() - APP/Controller/UsersController.php, line 14
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2017-11-27 09:22:33 Warning: Warning (2): json_decode() expects parameter 1 to be string, object given in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 13]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+json_decode - [internal], line ??
+UsersController::login() - APP/Controller/UsersController.php, line 13
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2017-11-27 09:22:41 Warning: Warning (2): json_decode() expects parameter 1 to be string, object given in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 13]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+json_decode - [internal], line ??
+UsersController::login() - APP/Controller/UsersController.php, line 13
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2017-11-27 09:26:11 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 23]
+2017-11-27 09:26:11 Error: [InternalErrorException] Internal Server Error
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 23, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 23, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-27 09:26:29 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 23]
+2017-11-27 09:26:29 Error: [InternalErrorException] Internal Server Error
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 23, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 23, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-27 09:26:49 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 23]
+2017-11-27 09:26:49 Error: [InternalErrorException] Internal Server Error
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 23, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 23, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-27 09:27:28 Error: Fatal Error (1): Cannot use object of type stdClass as array in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 16]
+2017-11-27 09:27:28 Error: [InternalErrorException] Internal Server Error
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Cannot use obje...', '/Applications/X...', 16)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', '/Applications/X...', 16, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', '/Applications/X...', 16, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-27 09:27:34 Error: Fatal Error (1): Cannot use object of type stdClass as array in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 16]
+2017-11-27 09:27:34 Error: [InternalErrorException] Internal Server Error
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Cannot use obje...', '/Applications/X...', 16)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', '/Applications/X...', 16, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', '/Applications/X...', 16, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-27 09:27:48 Error: Fatal Error (1): Cannot use object of type stdClass as array in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 16]
+2017-11-27 09:27:48 Error: [FatalErrorException] Cannot use object of type stdClass as array
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Cannot use obje...', '/Applications/X...', 16)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', '/Applications/X...', 16, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', '/Applications/X...', 16, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-27 09:28:08 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 13]
+2017-11-27 09:28:08 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 13, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 13, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-27 09:28:15 Error: Fatal Error (1): Cannot use object of type stdClass as array in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 14]
+2017-11-27 09:28:15 Error: [FatalErrorException] Cannot use object of type stdClass as array
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Cannot use obje...', '/Applications/X...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', '/Applications/X...', 14, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', '/Applications/X...', 14, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-27 09:28:32 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 13]
+2017-11-27 09:28:32 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 13, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 13, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-27 09:28:43 Error: Fatal Error (1): Cannot use object of type stdClass as array in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 14]
+2017-11-27 09:28:43 Error: [FatalErrorException] Cannot use object of type stdClass as array
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Cannot use obje...', '/Applications/X...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', '/Applications/X...', 14, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', '/Applications/X...', 14, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-27 09:29:12 Error: Fatal Error (4): syntax error, unexpected '$data' (T_VARIABLE) in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 14]
+2017-11-27 09:29:12 Error: [FatalErrorException] syntax error, unexpected '$data' (T_VARIABLE)
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 14, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 14, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-27 09:32:51 Error: Fatal Error (1): Call to a member function apiResult() on null in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 17]
+2017-11-27 09:32:51 Error: [FatalErrorException] Call to a member function apiResult() on null
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 17)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 17, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 17, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-27 09:33:05 Error: Fatal Error (1): Call to a member function apiResult() on null in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 17]
+2017-11-27 09:33:05 Error: [FatalErrorException] Call to a member function apiResult() on null
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 17)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 17, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 17, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-27 09:33:24 Error: Fatal Error (1): Call to a member function apiResult() on null in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 17]
+2017-11-27 09:33:24 Error: [FatalErrorException] Call to a member function apiResult() on null
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 17)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 17, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 17, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-27 09:38:38 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 09:38:40 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 09:38:41 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 09:38:41 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 09:38:41 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 09:38:42 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 09:38:42 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 09:38:42 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 09:38:43 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 09:38:54 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 09:38:55 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 09:38:55 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 09:38:55 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 09:38:56 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 09:38:56 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 09:38:56 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 09:38:57 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 09:39:10 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 09:39:15 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 09:39:16 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 09:39:16 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 09:39:20 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 09:39:24 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 09:39:25 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 09:39:26 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 09:39:41 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 09:39:48 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 09:40:16 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 09:40:46 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 09:41:13 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 09:41:55 Error: Fatal Error (1): Call to a member function apiResult() on null in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 21]
+2017-11-27 09:41:55 Error: [FatalErrorException] Call to a member function apiResult() on null
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 21, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 21, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-27 09:42:12 Error: Fatal Error (1): Call to a member function apiResult() on null in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 22]
+2017-11-27 09:42:12 Error: [FatalErrorException] Call to a member function apiResult() on null
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 22, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 22, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-27 09:42:54 Error: Fatal Error (1): Call to a member function apiResult() on null in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 30]
+2017-11-27 09:42:54 Error: [FatalErrorException] Call to a member function apiResult() on null
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 30)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 30, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 30, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-27 09:44:49 Error: Fatal Error (1): Call to a member function apiResult() on null in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 30]
+2017-11-27 09:44:49 Error: [FatalErrorException] Call to a member function apiResult() on null
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 30)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 30, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 30, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-27 09:44:54 Error: Fatal Error (1): Call to a member function apiResult() on null in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 30]
+2017-11-27 09:44:54 Error: [FatalErrorException] Call to a member function apiResult() on null
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 30)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 30, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 30, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-27 09:45:11 Error: Fatal Error (1): Call to a member function apiResult() on null in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 30]
+2017-11-27 09:45:11 Error: [FatalErrorException] Call to a member function apiResult() on null
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 30)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 30, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 30, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-27 09:47:26 Error: Fatal Error (1): Call to a member function apiResult() on null in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 30]
+2017-11-27 09:47:26 Error: [FatalErrorException] Call to a member function apiResult() on null
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 30)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 30, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 30, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-27 09:49:29 Error: Fatal Error (1): Call to a member function apiResult() on null in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 30]
+2017-11-27 09:49:29 Error: [FatalErrorException] Call to a member function apiResult() on null
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 30)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 30, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 30, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-27 09:50:54 Error: Fatal Error (1): Call to a member function apiResult() on null in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 26]
+2017-11-27 09:50:54 Error: [FatalErrorException] Call to a member function apiResult() on null
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 26)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 26, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 26, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-27 10:01:05 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 10:01:28 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 10:01:56 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 10:02:20 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 10:04:13 Warning: Warning (2): Creating default object from empty value in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 10]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 10
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 677
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2017-11-27 10:04:13 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 10:04:28 Warning: Warning (2): Creating default object from empty value in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 10]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 10
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 677
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2017-11-27 10:08:51 Warning: Warning (4096): Object of class UsersController could not be converted to string in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 19]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::login() - APP/Controller/UsersController.php, line 19
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2017-11-27 10:08:51 Error: Fatal Error (1): Call to a member function apiResult() on null in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 19]
+2017-11-27 10:08:51 Error: [InternalErrorException] Internal Server Error
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 19, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 19, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-27 10:09:15 Warning: Warning (4096): Object of class UsersController could not be converted to string in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 19]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::login() - APP/Controller/UsersController.php, line 19
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2017-11-27 10:09:15 Error: Fatal Error (1): Call to a member function apiResult() on null in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 19]
+2017-11-27 10:09:15 Error: [InternalErrorException] Internal Server Error
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 19, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 19, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-27 10:09:30 Warning: Warning (4096): Object of class UsersController could not be converted to string in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 19]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::login() - APP/Controller/UsersController.php, line 19
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2017-11-27 10:09:30 Error: Fatal Error (1): Call to a member function apiResult() on null in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 19]
+2017-11-27 10:09:30 Error: [InternalErrorException] Internal Server Error
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 19, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 19, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-27 10:09:44 Error: Fatal Error (1): Call to a member function apiResult() on null in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 19]
+2017-11-27 10:09:44 Error: [FatalErrorException] Call to a member function apiResult() on null
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 19, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 19, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-27 10:09:53 Error: Fatal Error (1): Call to a member function apiResult() on null in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 19]
+2017-11-27 10:09:53 Error: [FatalErrorException] Call to a member function apiResult() on null
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 19, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 19, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-27 10:09:53 Error: Fatal Error (1): Call to a member function apiResult() on null in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 19]
+2017-11-27 10:09:53 Error: [FatalErrorException] Call to a member function apiResult() on null
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 19, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 19, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-27 10:10:06 Warning: Warning (4096): Object of class UsersController could not be converted to string in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 19]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::login() - APP/Controller/UsersController.php, line 19
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2017-11-27 10:10:06 Error: Fatal Error (1): Call to a member function apiResult() on null in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 19]
+2017-11-27 10:10:06 Error: [InternalErrorException] Internal Server Error
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 19, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 19, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-27 10:11:04 Warning: Warning (4096): Object of class UsersController could not be converted to string in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 19]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::login() - APP/Controller/UsersController.php, line 19
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2017-11-27 10:11:04 Error: Fatal Error (1): Call to a member function apiResult() on null in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 19]
+2017-11-27 10:11:04 Error: [InternalErrorException] Internal Server Error
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 19, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 19, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-27 10:11:28 Warning: Warning (4096): Object of class UsersController could not be converted to string in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 19]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::login() - APP/Controller/UsersController.php, line 19
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2017-11-27 10:11:28 Error: Fatal Error (1): Call to a member function apiResult() on null in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 19]
+2017-11-27 10:11:28 Error: [InternalErrorException] Internal Server Error
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 19, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 19, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-27 10:11:58 Error: Fatal Error (1): Call to a member function apiResult() on null in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 19]
+2017-11-27 10:11:58 Error: [FatalErrorException] Call to a member function apiResult() on null
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 19, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 19, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-27 10:23:07 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 10:23:42 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 10:24:10 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 10:24:16 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 10:24:59 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 10:27:54 Error: Fatal Error (1): Call to a member function apiResult() on null in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 19]
+2017-11-27 10:27:54 Error: [FatalErrorException] Call to a member function apiResult() on null
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 19, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 19, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-27 10:29:38 Error: Fatal Error (1): Call to undefined method UsersController::allowHeaders() in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 10]
+2017-11-27 10:29:39 Error: [FatalErrorException] Call to undefined method UsersController::allowHeaders()
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/X...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/X...', 10, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/X...', 10, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-27 10:30:43 Error: Fatal Error (1): Call to undefined method UsersController::allowHeaders() in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 10]
+2017-11-27 10:30:43 Error: [FatalErrorException] Call to undefined method UsersController::allowHeaders()
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/X...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/X...', 10, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/X...', 10, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-27 10:31:14 Error: Fatal Error (1): Call to undefined method UsersController::allowHeaders() in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 10]
+2017-11-27 10:31:14 Error: [FatalErrorException] Call to undefined method UsersController::allowHeaders()
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/X...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/X...', 10, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/X...', 10, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-27 10:32:00 Error: Fatal Error (1): Call to undefined method UsersController::allowHeaders() in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 10]
+2017-11-27 10:32:00 Error: [FatalErrorException] Call to undefined method UsersController::allowHeaders()
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/X...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/X...', 10, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/X...', 10, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-27 10:32:17 Error: Fatal Error (1): Call to a member function apiResult() on null in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 18]
+2017-11-27 10:32:17 Error: [FatalErrorException] Call to a member function apiResult() on null
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 18, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 18, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-27 10:33:14 Error: Fatal Error (1): Call to a member function apiResult() on null in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 18]
+2017-11-27 10:33:14 Error: [FatalErrorException] Call to a member function apiResult() on null
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 18, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 18, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-27 10:34:32 Error: Fatal Error (1): Call to a member function apiResult() on null in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 18]
+2017-11-27 10:34:32 Error: [FatalErrorException] Call to a member function apiResult() on null
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 18, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 18, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-27 10:35:02 Error: Fatal Error (1): Call to a member function apiResult() on null in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 18]
+2017-11-27 10:35:02 Error: [FatalErrorException] Call to a member function apiResult() on null
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 18, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 18, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-27 10:35:24 Error: Fatal Error (1): Call to a member function apiResult() on null in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 18]
+2017-11-27 10:35:24 Error: [FatalErrorException] Call to a member function apiResult() on null
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 18, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 18, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-27 10:43:05 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 10:43:14 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 10:43:23 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 10:43:26 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 10:43:27 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 10:43:27 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 10:43:27 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 10:43:27 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 10:43:27 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 10:43:28 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 10:43:46 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 10:45:37 Error: [Exception] ERROR 404
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-27 10:57:44 Error: [MissingActionException] Action UsersController::register() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'register',
+)
+Request URL: /users/register
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-11-27 10:58:23 Error: [MissingActionException] Action UsersController::register() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'register',
+)
+Request URL: /users/register
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-11-27 10:59:28 Error: [MissingControllerException] Controller class SignupController could not be found.
+Exception Attributes: array (
+  'class' => 'SignupController',
+  'plugin' => NULL,
+)
+Request URL: /signup
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-27 11:00:01 Error: [MissingActionException] Action UsersController::register() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'register',
+)
+Request URL: /users/register
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-11-27 11:00:22 Error: [MissingActionException] Action UsersController::register() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'register',
+)
+Request URL: /users/register
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-03-02 09:38:34 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-03-02 09:45:17 Error: [MissingActionException] Action UsersController::register() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'register',
+)
+Request URL: /users/register
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-03-02 10:33:40 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 27]
+2018-03-02 10:33:40 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF)
+Request URL: /users/register
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 27, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 27, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-03-02 10:45:06 Error: Fatal Error (4): syntax error, unexpected ''same_password'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Model/User.php, line 39]
+2018-03-02 10:45:06 Error: [FatalErrorException] syntax error, unexpected ''same_password'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /users/register
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 39)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 39, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 39, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-03-02 11:18:38 Error: Fatal Error (1): Class 'AuthComponent' not found in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Model/User.php, line 104]
+2018-03-02 11:18:38 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /users/register
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/Applications/X...', 104)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/Applications/X...', 104, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/Applications/X...', 104, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-03-02 11:19:16 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-03-02 11:19:54 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-03-02 11:20:21 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-03-02 11:20:28 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-03-02 11:20:31 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-03-02 11:32:43 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-03-02 11:57:11 Error: Fatal Error (1): Call to a member function destroy() on null in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 16]
+2018-03-02 11:57:11 Error: [FatalErrorException] Call to a member function destroy() on null
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 16)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 16, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 16, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-03-02 14:11:30 Error: Fatal Error (4): syntax error, unexpected ''RequestHandler'' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/AppController.php, line 56]
+2018-03-02 14:11:30 Error: [FatalErrorException] syntax error, unexpected ''RequestHandler'' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE)
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 56, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 56, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-03-02 14:23:14 Error: Fatal Error (1): Class 'AuthComponent' not found in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Routing/Dispatcher.php, line 243]
+2018-03-02 14:23:14 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/Applications/X...', 243)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/Applications/X...', 243, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/Applications/X...', 243, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ionic_api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

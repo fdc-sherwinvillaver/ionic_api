@@ -1,0 +1,175 @@
+2017-11-27 08:43:58 Notice: Notice (8): Array to string conversion in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/AppController.php, line 38]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+AppController::apiResult() - APP/Controller/AppController.php, line 38
+UsersController::login() - APP/Controller/UsersController.php, line 17
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2017-11-27 08:43:59 Notice: Notice (8): Array to string conversion in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/AppController.php, line 38]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+AppController::apiResult() - APP/Controller/AppController.php, line 38
+UsersController::login() - APP/Controller/UsersController.php, line 17
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2017-11-27 08:43:59 Notice: Notice (8): Array to string conversion in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/AppController.php, line 38]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+AppController::apiResult() - APP/Controller/AppController.php, line 38
+UsersController::login() - APP/Controller/UsersController.php, line 17
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2017-11-27 10:04:13 Notice: Notice (8): Indirect modification of overloaded property UsersController::$Security has no effect in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 10]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 10
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 677
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2017-11-27 10:04:28 Notice: Notice (8): Indirect modification of overloaded property UsersController::$Security has no effect in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 10]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 10
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 677
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2017-11-27 10:08:51 Notice: Notice (8): Object of class UsersController to string conversion in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 19]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::login() - APP/Controller/UsersController.php, line 19
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2017-11-27 10:09:15 Notice: Notice (8): Object of class UsersController to string conversion in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 19]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::login() - APP/Controller/UsersController.php, line 19
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2017-11-27 10:09:30 Notice: Notice (8): Object of class UsersController to string conversion in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 19]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::login() - APP/Controller/UsersController.php, line 19
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2017-11-27 10:10:06 Notice: Notice (8): Object of class UsersController to string conversion in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 19]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::login() - APP/Controller/UsersController.php, line 19
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2017-11-27 10:11:04 Notice: Notice (8): Object of class UsersController to string conversion in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 19]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::login() - APP/Controller/UsersController.php, line 19
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2017-11-27 10:11:28 Notice: Notice (8): Object of class UsersController to string conversion in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 19]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::login() - APP/Controller/UsersController.php, line 19
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2018-03-02 09:39:49 Notice: Notice (8): Undefined index: app_token in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 14]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::login() - APP/Controller/UsersController.php, line 14
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2018-03-02 09:46:08 Notice: Notice (8): Undefined index: app_token in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 24]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::register() - APP/Controller/UsersController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2018-03-02 09:46:19 Notice: Notice (8): Undefined index: app_token in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 24]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::register() - APP/Controller/UsersController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2018-03-02 09:49:13 Notice: Notice (8): Undefined index: app_token in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 24]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::register() - APP/Controller/UsersController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2018-03-02 09:49:43 Notice: Notice (8): Undefined index: app_token in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 24]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::register() - APP/Controller/UsersController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2018-03-02 09:50:04 Notice: Notice (8): Undefined index: app_token in [/Applications/XAMPP/xamppfiles/htdocs/ionic_api/app/Controller/UsersController.php, line 24]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::register() - APP/Controller/UsersController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
